@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5cc97c7f0085624b6ef57853d70b404440060cef"
+    },
     "com.cysharp.yetanotherhttphandler": {
       "version": "https://github.com/Cysharp/YetAnotherHttpHandler.git?path=src/YetAnotherHttpHandler#v0.1.0",
       "depth": 0,
@@ -141,6 +148,46 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.vrmc.gltf": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.107.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.107.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "hash": "1e8a6b35bdb545baaad88b60cc9d374c31786b2c"
+    },
+    "com.vrmc.univrm": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.107.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.107.0",
+        "com.vrmc.gltf": "0.107.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "1e8a6b35bdb545baaad88b60cc9d374c31786b2c"
+    },
+    "com.vrmc.vrm": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.107.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.107.0",
+        "com.vrmc.gltf": "0.107.0"
+      },
+      "hash": "1e8a6b35bdb545baaad88b60cc9d374c31786b2c"
+    },
+    "com.vrmc.vrmshaders": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.107.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "hash": "1e8a6b35bdb545baaad88b60cc9d374c31786b2c"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
