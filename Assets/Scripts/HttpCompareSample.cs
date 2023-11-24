@@ -62,7 +62,7 @@ public class HttpCompareSample : MonoBehaviour
     private async UniTask<byte[]> GetYetAnotherAsync()
     {
         using var handler = new YetAnotherHttpHandler();
-        var httpClient = new HttpClient(handler);
+        using var httpClient = new HttpClient(handler);
 
         var bytes = await httpClient.GetByteArrayAsync(URI);
 
